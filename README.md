@@ -25,5 +25,7 @@ By setting different parameters and run the command, you can replicate results o
 Enjoy yourself!
 
 Paper Hash code:
+63E7E3D1590F0819B2AC8BBB41E4B68D
 
 Appendix Hash code:
+B3820D4F63FADCF994F00633AC906616
