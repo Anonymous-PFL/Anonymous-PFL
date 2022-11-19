@@ -1,16 +1,29 @@
-### Hi there 👋
+# Code Appendix
+Code for federated learning (FL).
 
-<!--
-**Anonymous-PFL/Anonymous-PFL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Requirements to run the code:
 
-Here are some ideas to get you started:
+Python 3.6-3.10
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Numpy
+
+pytorch
+
+cvxopt
+
+## Basic usage
+Copy one line of commands in the same folder of `./pfedplat` and run (one example shown as follows).
+
+```
+python run.py --seed 1 --device 0 --model CNN_CIFAR10_FedFV --algorithm FedAvg --dataloader DataLoader_cifar10_pat --N 100 --NC 2 --balance True --B 50 --C 1.0 --R 3000 --E 1 --lr 0.1 --decay 0.999
+```
+
+All parameters can be seen in `./pfedplat/main.py`.
+
+By setting different parameters and run the command, you can replicate results of all experiments.
+
+Enjoy yourself!
+
+Paper Hash code:
+
+Appendix Hash code:
