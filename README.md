@@ -29,3 +29,5 @@ Paper Hash code:
 
 Appendix Hash code:
 B3820D4F63FADCF994F00633AC906616
+
+For the safety of the code, some files are encrypted, but they can be run directly.
